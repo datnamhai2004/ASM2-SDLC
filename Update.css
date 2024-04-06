@@ -1,0 +1,116 @@
+.CancelUpdate {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    width: 125px;
+    height: 50px;
+    border: none;
+    border-radius: 20em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background: linear-gradient(0deg, rgb(243, 27, 27)  0%,  rgb(251, 114, 114) 100%);
+    background-color: rgb(255, 65, 65);
+    margin-left: 1070px;
+    text-decoration: none;
+    justify-content: center;
+    box-shadow: 0 0.7em 1.5em -0.5em #c7331f98;
+    
+
+  }
+  
+  /* plus sign */
+
+  /* text */
+.TextcancelUpdate{
+    text-decoration: none;
+    color: white;
+}
+  /* hover effect on button width */
+ 
+  
+  
+  
+  /* ================== */
+  .cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    /* font-weight: 500; */
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  }
+
+
+  /*  */
+  .container{
+    margin-top: 50px;
+}
+.input-container {
+    position: relative;
+    margin: 50px auto;
+  }
+  
+  .input-container input[type="text"] {
+    height: 40px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .input-container .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .input-container input[type="text"]:focus ~ .label,
+  .input-container input[type="text"]:valid ~ .label {
+    top: -30px;
+    font-size: 19px;
+    color: #333;
+  }
+  
+  .input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+  
+  .input-container input[type="text"]:focus ~ .underline,
+  .input-container input[type="text"]:valid ~ .underline {
+    transform: scaleX(1);
+  }

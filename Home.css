@@ -1,0 +1,213 @@
+
+body{
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border: 1px solid rgb(231, 229, 229);
+    padding: 30px 0px;
+    border-radius: 10px;
+    
+}
+.btnAdd {
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 40px;
+
+}
+
+.IconContainer {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+}
+
+.icon {
+    border-radius: 1px;
+}
+
+.textAdd {
+    margin-left: 7px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 17, 17);
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 1.04em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnAdd:hover {
+    border: 1px solid grey;
+}
+.btnAdd:hover .IconContainer {
+    transform: translateX(58px);
+    border-radius: 40px;
+    transition-duration: .5s;
+    
+}
+
+.btnAdd:hover .textAdd {
+    transform: translate(10px, 0px);
+    transition-duration: .5s;
+}
+
+.btnAdd:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+}
+/* ============================ */
+
+/* ================================= */
+.functions{
+    display: flex;
+    padding: 0;
+}
+.OverallDelete{
+    margin-left: 10px;
+    width: 65px;
+}
+.Delete {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: .3s;
+    margin-bottom: 2px;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .Delete:hover {
+    width: 65px;
+    border-radius: 50px;
+    transition-duration: .3s;
+    background-color: rgb(255, 69, 69);
+    align-items: center;
+  }
+  
+  .Delete:hover .svgIcon {
+    width: 50px;
+    transition-duration: .3s;
+    transform: translateY(60%);
+  }
+  
+  .Delete::before {
+    position: absolute;
+    top: -20px;
+    content: "Delete";
+    color: white;
+    transition-duration: .3s;
+    font-size: 2px;
+  }
+  
+  .Delete:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-duration: .3s;
+  }
+  /* ====================================== */
+  .OverallUpdate{
+    margin-left: 10px;
+    width: 65px;
+}
+.update {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 17px;
+    transition-duration: .3s;
+    margin-bottom: 2px;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .update:hover {
+    width: 65px;
+    border-radius: 50px;
+    transition-duration: .3s;
+    background-color: rgb(41, 144, 240);
+    align-items: center;
+  }
+  
+  .update:hover .svgIcon {
+    width: 50px;
+    transition-duration: .3s;
+    transform: translateY(60%);
+  }
+  
+  .update::before {
+    position: absolute;
+    top: -20px;
+    content: "Update";
+    color: white;
+    transition-duration: .3s;
+    font-size: 2px;
+  }
+  
+  .update:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-duration: .3s;
+  }
+  
